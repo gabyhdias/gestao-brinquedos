@@ -10,8 +10,3 @@ CREATE TABLE IF NOT EXISTS `brinquedos` (
     `quantidade` INT NOT NULL DEFAULT 0,
     `criado_em` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;]
-
-INSERT INTO `brinquedos` (`nome`, `categoria`, `faixa_etaria`, `preco`, `quantidade`) VALUES
-('Quebra-Cabeça 100 Peças', 'Educativo', '6 a 10 anos', 45.90, 15),
-('Carrinho de Controle Remoto', 'Veículos', '8+ anos', 129.99, 8),
-('Urso de Pelúcia Gigante', 'Pelúcias', '0 a 3 anos', 89.90, 20);
